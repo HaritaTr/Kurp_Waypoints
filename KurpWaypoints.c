@@ -25,11 +25,11 @@ int main()
 	/* Eşit aralıklı noktalar arasındaki yay uzunluğunun hesaplanması
 	l = L / (n + 1); */
 	l = L / (n + 1);
-	printf("Eşit aralıklı noktalar arasındaki yay uzunluğunun değeri: \n", l);
+	printf("Eşit aralıklı noktalar arasındaki yay uzunluğunun değeri: %f\n", l);
 	/* Hesaplanan “l” yay uzunluğuna karşılık gelen “ε” açı uzunluğu
 	E = l / R; */
 	E = l / R;
-	printf("Hesaplanan “l” yay uzunluğuna karşılık gelen “ε” açı uzunluğu değeri: \n", E);
+	printf("Hesaplanan “l” yay uzunluğuna karşılık gelen “ε” açı uzunluğu değeri: %f\n", E);
 	/* Ara noktaların koordinatlarının hesaplanması
 	X1 = R * sin(E);
 	Y1 = 2 * R * ((sin(E / 2)^ 2));;
@@ -51,16 +51,11 @@ int main()
 	Y4 = 2 * R * (pow(sin(4 * E / 2), 2));
 	Xson = R * sin(5 * E);
 	Yson = 2 * R * (pow(sin(5 * E / 2), 2));
-	printf("X1 değeri: \n", X1);
-	printf("Y1 değeri: \n", Y1);
-	printf("X2 değeri: \n", X2);
-	printf("Y2 değeri: \n", Y2);
-	printf("X3 değeri: \n", X3);
-	printf("Y3 değeri: \n", Y3);
-	printf("X4 değeri: \n", X4);
-	printf("Y4 değeri: \n", Y4);
-	printf("Xson değeri: \n", Xson);
-	printf("Yson değeri: \n", Yson);
+	printf("X1 değeri: %f\t Y1 değeri: %f\n", X1, Y1);
+	printf("X2 değeri: %f\t Y2 değeri: %f\n", X2, Y2);
+	printf("X3 değeri: %f\t Y3 değeri: %f\n", X3, Y3);
+	printf("X4 değeri: %f\t Y4 değeri: %f\n", X4, Y4);
+	printf("Xson değeri: %f\t Yson değeri: %f\n", Xson, Yson);
 	/* Kontrol
 	Δ = L / R;
 	Xkontrol = R * sin(Δ);
@@ -68,9 +63,9 @@ int main()
 	Delta = L / R;
 	Xkontrol = R * sin(Delta);
 	Ykontrol = 2 * R * (pow(sin(Delta / 2), 2));
-	printf("Delta değeri: \n", Delta);
-	printf("Xkontrol değeri: \n", Xkontrol);
-	printf("Ykontrol değeri: \n", Ykontrol);
+	printf("Delta değeri: %f\n", Delta);
+	printf("Xkontrol değeri: %f\n", Xkontrol);
+	printf("Ykontrol değeri: %f\n", Ykontrol);
 
 	return 0;
 }
