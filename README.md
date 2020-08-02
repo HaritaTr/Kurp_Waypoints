@@ -19,7 +19,7 @@ Yukarıdaki değerlerin girilmesi gerekmektedir.
 
 **Hesaplanan;**
 
-l; Eşit aralıklı noktalar arasındaki yay uzunluğu
- Hesaplanan “l” yay uzunluğuna karşılık gelen “ε” açı uzunluğu
- Ara Noktaların Koordinatları; X1,Y1,X2,Y2,X3,Y3,X4,Y4,Xson,Yson
- Kontrol Noktası Koordinatları ve Açı değeri;Xkontrol,Ykontrol ve Δ
++ l; Eşit aralıklı noktalar arasındaki yay uzunluğu
++ Hesaplanan “l” yay uzunluğuna karşılık gelen “ε” açı uzunluğu
++ Ara noktaların koordinatları; X1, Y1, X2, Y2, X3, Y3, X4, Y4, Xson, Yson
++ Kontrol noktası koordinatları ve Açı değeri; Xkontrol, Ykontrol ve Δ
