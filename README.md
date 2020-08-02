@@ -22,4 +22,4 @@ Yukarıdaki değerlerin girilmesi gerekmektedir.
 + l; Eşit aralıklı noktalar arasındaki yay uzunluğu
 + Hesaplanan “l” yay uzunluğuna karşılık gelen “ε” açı uzunluğu
 + Ara noktaların koordinatları; X1, Y1, X2, Y2, X3, Y3, X4, Y4, Xson, Yson
-+ Kontrol noktası koordinatları ve Açı değeri; Xkontrol, Ykontrol ve Δ
++ Kontrol noktası koordinatları ve açı değeri; Xkontrol, Ykontrol ve Δ
