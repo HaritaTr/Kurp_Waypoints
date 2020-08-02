@@ -1,2 +1,1 @@
-# Kurp_Waypoints
-Kurp Ara Noktaları Hesabı
+# Kurp Ara Noktaları Hesabı
