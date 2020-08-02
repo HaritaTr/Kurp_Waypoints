@@ -66,6 +66,14 @@ int main()
 	printf("Delta değeri: %f\n", Delta);
 	printf("Xkontrol değeri: %f\n", Xkontrol);
 	printf("Ykontrol değeri: %f\n", Ykontrol);
+	if (Delta == 1)
+	{
+		printf("Kontrol doğru. \n");
+	}
+	else
+	{
+		printf("Lütfen değerlerinizi kontrol ediniz!!! \n");
+	}
 
 	return 0;
 }
