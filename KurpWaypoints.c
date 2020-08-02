@@ -12,11 +12,11 @@ int main()
 	/* R; Kurbun yarıçapı (Proje mühendisi olan harita mühendisi veya inşaat mühendisi tarafınca belirlenir.)
 	L; Developman boyu
 	n; Kurp üzerindeki ara nokta sayısı (sabit) */
-	printf("Kurbun yarıçapı (R) değerini giriniz: \n");
+	printf("Kurbun yarıçapı (R) değerini giriniz: ");
 	scanf("%lf", &R);
-	printf("Developman boyu (L) değerini giriniz: \n");
+	printf("Developman boyu (L) değerini giriniz: ");
 	scanf("%lf", &L);
-	printf("Kurp üzerindeki ara nokta sayısı (n) değerini giriniz: \n");
+	printf("Kurp üzerindeki ara nokta sayısı (n) değerini giriniz: ");
 	scanf("%lf", &n);
 
 		// Bilinmeyenlerin hesaplanması;
